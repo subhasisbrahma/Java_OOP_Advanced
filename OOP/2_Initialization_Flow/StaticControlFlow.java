@@ -1,4 +1,3 @@
-// PROGRAM-6
 class StaticControlFlow {
     static int a = 10, b = 20, c = 30;  // Static Variables
 
@@ -16,10 +15,8 @@ class StaticControlFlow {
         System.out.println(c);
     }
     
-    // Instance (Non-Static) Variables
-    int x = 40;
-    int y = 50;
-    int z = 60;
+    int x = 40, y = 50, z = 60; // Instance (Non-Static) Variables
+    
 
     { // Instance Block (Non-Static Block)
         System.out.println("Inside non-static Block");
