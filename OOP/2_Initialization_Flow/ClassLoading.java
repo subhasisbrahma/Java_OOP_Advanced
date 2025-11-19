@@ -48,7 +48,7 @@ public class ClassLoading {
      public static void main(String[] args) {
         System.out.println("Inside main() method");
         
-        Demo.disp1(); 
+        Demo.disp1(); // The JVM loads the Demo class dynamically and executes all static part.
 
         Demo d = new Demo();
         d.disp2();
